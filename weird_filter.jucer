@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="LUDEZH" name="weird_filter" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="RCGOpm" name="weird_filter">
+    <GROUP id="{CA0C4469-93E3-5E48-8D4C-DE82B351D184}" name="Source">
+      <GROUP id="{DC292ACB-9EF2-8E0A-A99A-96611ADFF855}" name="daisysp">
+        <GROUP id="{32BB23DC-39D2-03A7-FC5C-3E219FE4A71D}" name="filters">
+          <FILE id="yMjqDL" name="svf.cpp" compile="1" resource="0" file="Source/daisysp/filters/svf.cpp"/>
+          <FILE id="zWM2qX" name="svf.h" compile="0" resource="0" file="Source/daisysp/filters/svf.h"/>
+          <FILE id="OF9qpq" name="fir.h" compile="0" resource="0" file="Source/daisysp/filters/fir.h"/>
+        </GROUP>
+        <GROUP id="{BED8C72E-85D3-7C48-657F-56547CDAF0F0}" name="control">
+          <FILE id="LS01tX" name="phasor.cpp" compile="1" resource="0" file="Source/daisysp/control/phasor.cpp"/>
+          <FILE id="rlHI2y" name="phasor.h" compile="0" resource="0" file="Source/daisysp/control/phasor.h"/>
+        </GROUP>
+        <GROUP id="{FF9849DF-9788-CABC-E8B3-BEEBC153D342}" name="dsp">
+          <FILE id="hS7JOB" name="decimator.cpp" compile="1" resource="0" file="Source/daisysp/dsp/decimator.cpp"/>
+          <FILE id="nviBIr" name="decimator.h" compile="0" resource="0" file="Source/daisysp/dsp/decimator.h"/>
+          <FILE id="CIWW8r" name="overdrive.cpp" compile="1" resource="0" file="Source/daisysp/dsp/overdrive.cpp"/>
+          <FILE id="nZ8XDr" name="overdrive.h" compile="0" resource="0" file="Source/daisysp/dsp/overdrive.h"/>
+          <FILE id="PHFjr6" name="pitchshifter.h" compile="0" resource="0" file="Source/daisysp/dsp/pitchshifter.h"/>
+        </GROUP>
+        <GROUP id="{9C551AE9-AD23-F9E3-1F98-60BBA084647C}" name="utility">
+          <FILE id="eXrNGB" name="delayline.h" compile="0" resource="0" file="Source/daisysp/utility/delayline.h"/>
+          <FILE id="iGPVfW" name="dsp.h" compile="0" resource="0" file="Source/daisysp/utility/dsp.h"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{1DA840A2-B49F-9DC1-81E4-A5C30D3C3EC7}" name="rings">
+        <GROUP id="{EB416501-31CC-897D-C095-CC674AECA977}" name="fx">
+          <FILE id="Y3Zo9n" name="chorus.h" compile="0" resource="0" file="Source/rings/fx/chorus.h"/>
+          <FILE id="D3GRZz" name="ensemble.h" compile="0" resource="0" file="Source/rings/fx/ensemble.h"/>
+          <FILE id="tGlDip" name="fx_engine.h" compile="0" resource="0" file="Source/rings/fx/fx_engine.h"/>
+          <FILE id="cESY1u" name="reverb.h" compile="0" resource="0" file="Source/rings/fx/reverb.h"/>
+        </GROUP>
+        <FILE id="zZ2XMU" name="dsp.h" compile="0" resource="0" file="Source/rings/dsp.h"/>
+        <FILE id="XqwnxZ" name="follower.h" compile="0" resource="0" file="Source/rings/follower.h"/>
+        <FILE id="zDzpm7" name="resonator.cc" compile="1" resource="0" file="Source/rings/resonator.cc"/>
+        <FILE id="YkVPL3" name="resonator.h" compile="0" resource="0" file="Source/rings/resonator.h"/>
+        <FILE id="QMcwaU" name="resources.cc" compile="1" resource="0" file="Source/rings/resources.cc"/>
+        <FILE id="nYSNBt" name="resources.h" compile="0" resource="0" file="Source/rings/resources.h"/>
+      </GROUP>
+      <GROUP id="{ACD8AF77-9443-29BD-3019-43B8A2913019}" name="stmlib">
+        <GROUP id="{C4AC802E-BF14-3770-57E4-AF694F86B656}" name="dsp">
+          <FILE id="SZcJPY" name="cosine_oscillator.h" compile="0" resource="0"
+                file="Source/stmlib/dsp/cosine_oscillator.h"/>
+          <FILE id="JypKDi" name="delay_line.h" compile="0" resource="0" file="Source/stmlib/dsp/delay_line.h"/>
+          <FILE id="OdRhjv" name="dsp.h" compile="0" resource="0" file="Source/stmlib/dsp/dsp.h"/>
+          <FILE id="qg2bVv" name="filter.h" compile="0" resource="0" file="Source/stmlib/dsp/filter.h"/>
+          <FILE id="D3khEE" name="parameter_interpolator.h" compile="0" resource="0"
+                file="Source/stmlib/dsp/parameter_interpolator.h"/>
+        </GROUP>
+        <GROUP id="{0293A8D3-B491-67CA-BDEF-9BFF8CC7E1C5}" name="utils">
+          <FILE id="EmvHg1" name="dsp.h" compile="0" resource="0" file="Source/stmlib/utils/dsp.h"/>
+          <FILE id="DC5RNP" name="random.cc" compile="1" resource="0" file="Source/stmlib/utils/random.cc"/>
+          <FILE id="wpvLk3" name="random.h" compile="0" resource="0" file="Source/stmlib/utils/random.h"/>
+        </GROUP>
+        <FILE id="DozKtn" name="stmlib.h" compile="0" resource="0" file="Source/stmlib/stmlib.h"/>
+      </GROUP>
+      <FILE id="qxMSoY" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="fA2m5M" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="RAavi4" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="uKWxSW" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="weird_filter"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="weird_filter"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
